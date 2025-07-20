@@ -196,6 +196,9 @@ The API returns structured error messages. Example:
 }
 ```
 
+## Link to video presentation
+https://drive.google.com/drive/folders/1krfVIb9V5cBxTJkyAor-tUO9KAxOOzPX?usp=drive_link
+
 ## Testing
 - Use **Postman** or **cURL** for API testing
 - e.g. cURL -X GET http://localhost:3000/categories,
