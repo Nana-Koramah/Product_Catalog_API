@@ -24,7 +24,7 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
 1. Clone this repository:
    ```sh
    git clone https://github.com/Nana-Koramah/Product_Catalog_API.git
-   cd product-catalog-api
+   cd .\ProductCatalogAPI\
    ```
 
 2. Install dependencies: You can check package.json to see the list of dependencies to be installed.
