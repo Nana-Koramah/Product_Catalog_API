@@ -23,7 +23,7 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/ayadeleke/ProductCatalogAPI.git
+   git clone https://github.com/Nana-Koramah/Product_Catalog_API.git
    cd product-catalog-api
    ```
 
