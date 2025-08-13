@@ -55,7 +55,7 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
   **Request Body:**
   ```json
   {
-    "name": "John Doe",
+    "username": "John Doe",
     "email": "john@example.com",
     "password": "securepassword",
     "role": "admin"
@@ -95,7 +95,7 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
     "category": "Shoes",
     "price": 99.99,
     "stock": 50,
-    "image": "null",
+    "image": "https://image",
     "variants": [
         { "size": "M", "color": "Red", "quantity": 5 },
         { "size": "L", "color": "Blue", "quantity": 10 }
