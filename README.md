@@ -125,19 +125,19 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
 
 - **Get a specific product:**
   ```http
-  GET http://localhost:3000/products/:id
+  GET http://localhost:3000/products/id
   ```
 
 - **Update a product (Admin Only):**
   ```http
-  PUT http://localhost:3000/products/:id
+  PUT http://localhost:3000/products/id
   Content-Type: application/json
   Authorization: Bearer <jwt-token>
   ```
 
 - **Delete a product (Admin Only):**
   ```http
-  DELETE http://localhost:3000/products/:id
+  DELETE http://localhost:3000/products/id
   Authorization: Bearer <jwt-token>
   ```
 
@@ -156,18 +156,18 @@ This is a RESTful API for managing a product catalog, designed to support an e-c
 
 - **Get a specific category:**
   ```http
-  GET http://localhost:3000/categories/:id
+  GET http://localhost:3000/categories/id
   ```
 
 - **Update a category (Admin Only):**
   ```http
-  PUT http://localhost:3000/categories/:id
+  PUT http://localhost:3000/categories/id
   Authorization: Bearer <jwt-token>
   ```
 
 - **Delete a category (Admin Only):**
   ```http
-  DELETE http://localhost:3000/categories/:id
+  DELETE http://localhost:3000/categories/id
   Authorization: Bearer <jwt-token>
   ```
 
